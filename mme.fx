@@ -1,6 +1,8 @@
+// random/mme.fx
+
 //乱数テクスチャ
 texture2D RandomTexture <
-    string ResourceName = "random256x256.bmp";
+    string ResourceName = "./random/random256x256.bmp";
 >;
 sampler RandomTextureSampler = sampler_state {
     texture = <RandomTexture>;
